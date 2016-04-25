@@ -17,7 +17,12 @@ var myItems = [
   "question two"
   ];
   
-  while (i <= myitems.length) {
+var secondList="<ul>";
   
-  document.write("<li>" + myItems[i] + "</li>")
+  while (i <= myitems.length) {
+  seocndList += "<li>" + myItems[i] + "</li>";
   }
+  
+  secondList += "</ul>";
+  
+  document.write(secondList);
