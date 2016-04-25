@@ -1,8 +1,8 @@
 // loop
-var count = 0;
+var count = 1;
 var list = '';
 
-while (count < 10) {
+while (count < 11) {
   list += '<li>current count is: ' + count + '</li>';
   count += 1;
 }
