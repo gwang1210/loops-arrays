@@ -17,4 +17,7 @@ var myItems = [
   "question two"
   ];
   
-  document.write("<p>" + myItems[0] + "</p>")
+  while (i <= myitems.length) {
+  
+  document.write("<li>" + myItems[i] + "</li>")
+  }
