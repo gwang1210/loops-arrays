@@ -11,18 +11,19 @@ while (count < 11) {
 document.write("<h1>Loops</h1>");
 document.write("<ol>" + list + "</ol>");
 
-//array
-var myItems = [
-  "question one"
-  "question two"
-  ];
+// //array
+// var myItems = [
+//   "question one"
+//   "question two"
+//   ];
   
-var secondList="<ul>";
+// var secondList="<ul>";
   
-  while (i <= myitems.length) {
-  seocndList += "<li>" + myItems[i] + "</li>";
-  }
+//   while (i <= myitems.length) {
+//   seocndList += "<li>" + myItems[i] + "</li>";
+//   i++;
+//   }
   
-  secondList += "</ul>";
+//   secondList += "</ul>";
   
-  document.write(secondList);
+//   document.write(secondList);
